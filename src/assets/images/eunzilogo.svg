@@ -1,0 +1,27 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="48.344" height="30.406" viewBox="0 0 48.344 30.406">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a1a1b;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #1a1a1b;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="26.531" cy="15.203" r="13.719"/>
+  <circle class="cls-2" cx="15.203" cy="15.203" r="13.703"/>
+  <path id="Ellipse_2_copy" data-name="Ellipse 2 copy" class="cls-3" d="M294.646,27.5A13.705,13.705,0,1,1,280.941,41.2,13.705,13.705,0,0,1,294.646,27.5Z" transform="translate(-261.5 -26)"/>
+  <path class="cls-3" d="M276.719,37.843H263.808" transform="translate(-261.5 -26)"/>
+  <path class="cls-3" d="M276.663,45.134H263.752" transform="translate(-261.5 -26)"/>
+</svg>
