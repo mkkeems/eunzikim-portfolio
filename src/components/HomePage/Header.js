@@ -3,9 +3,6 @@ import fistbump from "../../assets/images/fist-bump.png";
 import styled from "styled-components/macro";
 import { getvw } from "../../assets/styles/mixins";
 import { colors } from "../../assets/styles/variables";
-// import freshlyMockup from "../assets/images/freshly-mockup.png";
-// import goodocMockup from "../assets/images/goodoc-mockup.png";
-// import treepleMockup from "../assets/images/treeple-mockup.png";
 
 const Wrap = styled.div`
   padding: ${getvw(200)} ${getvw(306)} ${getvw(120)};
