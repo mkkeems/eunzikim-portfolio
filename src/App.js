@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage";
 const App = () => {
   return (
     <>
-      {/* <Reset /> */}
+      <Reset />
       <GlobalStyle />
       <Router>
         <Route exact path="/" component={HomePage} />

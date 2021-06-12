@@ -78,7 +78,7 @@ const MockupBlock = styled.div`
     .text-body {
       width: 87%;
       font-size: ${getvw(18)};
-      font-family: arial;
+      font-family: "Arial";
       margin-bottom: ${getvw(72)};
       line-height: ${getvw(24)};
     }
