@@ -6,3 +6,7 @@ export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+export const Content = styled.div`
+  flex: 1 0 auto;
+`;

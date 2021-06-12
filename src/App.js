@@ -3,6 +3,7 @@ import { Reset } from "styled-reset";
 import GlobalStyle from "./assets/styles/globalStyle";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
+import WorkPageMain from "./pages/WorkPageMain";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Router>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={AboutPage} />
+        <Route path="/work" component={WorkPageMain} />
       </Router>
     </>
   );

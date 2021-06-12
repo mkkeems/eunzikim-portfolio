@@ -1,15 +1,24 @@
 import React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
-import styled from "styled-components/macro";
+import { Switch, Route, Redirect, useRouteMatch } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import { PageContainer, Content } from "../components/PageContainer";
+import TreeplePage from "./TreeplePage";
 
-const Content = styled.div`
-  flex: 1 0 auto;
-`;
+const WorkPageMain = () => {
+  let { path, url } = useRouteMatch();
 
-const WorkPage = () => {
-  return <div></div>;
+  return (
+    <PageContainer>
+      <Navbar />
+      <Content>
+        <TreeplePage />
+        <Switch>
+          <Route exact path={`${path}/treeple`} component={TreeplePage} />
+          <Redirect from="/work" to={`${path}/treeple`} />
+        </Switch>
+      </Content>
+    </PageContainer>
+  );
 };
 
-export default WorkPage;
+export default WorkPageMain;

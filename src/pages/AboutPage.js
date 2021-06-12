@@ -5,7 +5,6 @@ import { getvw } from "../assets/styles/mixins";
 import { colors } from "../assets/styles/variables";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Header from "../components/HomePage/Header";
 import { PageContainer } from "../components/PageContainer";
 import aboutImg from "../assets/images/about-img.jpg";
 
