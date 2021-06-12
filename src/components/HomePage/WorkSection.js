@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components/macro";
 import { getvw } from "../../assets/styles/mixins";
 import { colors } from "../../assets/styles/variables";
-import freshlyMockup from "../../assets/images/freshly-mockup.png";
-import goodocMockup from "../../assets/images/goodoc-mockup.png";
-import treepleMockup from "../../assets/images/treeple-mockup.png";
-import kbMockup from "../../assets/images/kb-bank-mockup.png";
+import freshlyMockup from "../../assets/images/freshly.svg";
+import goodocMockup from "../../assets/images/goodoc.svg";
+import treepleMockup from "../../assets/images/treeple.svg";
+import kbMockup from "../../assets/images/kbbank.svg";
 
 const Wrap = styled.div`
   border-top: 1px solid ${colors.darkGrey};
@@ -48,28 +48,39 @@ const MockupBlock = styled.div`
   .product-img-long {
     height: ${getvw(400)};
     width: inherit;
+    filter: drop-shadow(0 0 10px #a1a0a0);
   }
 
   .product-img-wide {
     width: ${getvw(492)};
     height: inherit;
     margin: auto;
+    filter: drop-shadow(0 0 10px #a1a0a0);
   }
 
   .mockup-textbox {
     display: flex;
+    justify-content: space-between;
     width: 100%;
 
     h2 {
       margin: 0;
+      margin-bottom: ${getvw(50)};
+      font-size: ${getvw(30)};
+      line-height: ${getvw(35)};
+      color: ${colors.darkGrey};
     }
 
     .num {
-      width: 8%;
+      width: 13%;
     }
 
     .text-body {
-      width: 92%;
+      width: 87%;
+      font-size: ${getvw(18)};
+      font-family: arial;
+      margin-bottom: ${getvw(72)};
+      line-height: ${getvw(24)};
     }
   }
 `;
