@@ -37,7 +37,9 @@ const Navbar = () => {
   return (
     <Wrap>
       <div className="nav-content">
-        <img src={eunzilogo} alt="EunziLogo" className="nav-logo" />
+        <NavLink to="/" exact>
+          <img src={eunzilogo} alt="EunziLogo" className="nav-logo" />
+        </NavLink>
         <div className="nav-right">
           <NavLink
             to="/work"

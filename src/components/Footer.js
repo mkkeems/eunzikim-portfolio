@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components/macro";
 import { getvw } from "../assets/styles/mixins";
 import { colors } from "../assets/styles/variables";
@@ -19,14 +20,14 @@ const Wrap = styled.div`
     text-align: center;
     font-size: ${getvw(18)};
     font-weight: 500;
-    padding-top: ${getvw(36)};
-    padding-bottom: ${getvw(24)};
+    padding: ${getvw(36)} 0;
     margin: 0 ${getvw(306)};
     border-right: 1px solid ${colors.darkGrey};
     border-left: 1px solid ${colors.darkGrey};
 
     .footer-icons {
       display: flex;
+      align-items: center;
       margin: auto;
       margin-bottom: ${getvw(36)};
       width: fit-content;
@@ -48,12 +49,20 @@ const Footer = () => {
     <Wrap>
       <div className="footer-content">
         <div className="footer-icons">
-          <img
-            src={linkedinIcon}
-            alt="linkedin icon"
-            className="linkedin-icon"
-          />
-          <img src={mailIcon} alt="mail icon" className="mail-icon" />
+          <Link
+            to={{ pathname: "https://www.linkedin.com/in/eunji-kim-449686b8/" }}
+            target="_blank"
+          >
+            <img
+              src={linkedinIcon}
+              alt="linkedin icon"
+              className="linkedin-icon"
+            />
+          </Link>
+
+          <a href={`mailto:eunzoaz@gmail.com`}>
+            <img src={mailIcon} alt="mail icon" className="mail-icon" />
+          </a>
         </div>
         <p>July 2021 © Eunji Kim</p>
       </div>
