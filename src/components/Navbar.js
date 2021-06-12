@@ -6,6 +6,10 @@ import { colors } from "../assets/styles/variables";
 import eunzilogo from "../assets/images/eunzilogo.svg";
 
 const Wrap = styled.div`
+  &.work-nav {
+    background-color: white;
+  }
+
   border-bottom: 1px solid black;
   padding: ${getvw(24)} ${getvw(260)};
 

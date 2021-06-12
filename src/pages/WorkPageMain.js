@@ -9,7 +9,7 @@ const WorkPageMain = () => {
 
   return (
     <PageContainer>
-      <Navbar />
+      <Navbar className="work-nav" />
       <Content>
         <Switch>
           <Route exact path={`${path}/treeple`} component={TreeplePage} />
