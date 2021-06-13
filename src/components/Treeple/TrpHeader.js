@@ -28,14 +28,14 @@ const Wrap = styled.div`
   h1 {
     font-size: ${getvw(30)};
     line-height: ${getvw(40)};
-    font-weight: 500;
+    font-weight: 600;
     margin: 0;
     margin-bottom: ${getvw(56)};
   }
   h2 {
     font-size: ${getvw(25)};
     line-height: ${getvw(35)};
-    font-weight: 400;
+    font-weight: 500;
     color: ${colors.medGrey2};
     margin: 0;
   }
