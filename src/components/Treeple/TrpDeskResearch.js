@@ -71,7 +71,7 @@ const Wrap = styled.div`
         padding: auto;
         background-color: #ebfbfc;
         text-align: center;
-        color: #36d0d0;
+        color: ${colors.aqua};
         font-size: ${getvw(20)};
         font-weight: 600;
       }

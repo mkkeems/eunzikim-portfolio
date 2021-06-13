@@ -8,6 +8,7 @@ export const colors = {
   medGrey2: `#656565`,
   darkGrey2: `#484E57`,
   purple: `#7134c4`,
+  aqua: `#36d0d0`,
 };
 
 export const fonts = {

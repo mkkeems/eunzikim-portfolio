@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/macro";
 import { getvw } from "../../assets/styles/mixins";
 import { colors } from "../../assets/styles/variables";
-import bgicons from "../../assets/images/trp-icons1.png";
+import bgicons from "../../assets/images/treeple-page/trp-icons1.png";
 
 const Wrap = styled.div`
   padding: ${getvw(112)} ${getvw(333)};
@@ -17,7 +17,7 @@ const Wrap = styled.div`
     font-size: ${getvw(30)};
     font-weight: 600;
     padding-bottom: 2px;
-    border-bottom: 3px solid #36d0d0;
+    border-bottom: 3px solid ${colors.aqua};
   }
 
   .icons {
@@ -34,13 +34,17 @@ const Wrap = styled.div`
 
     .text-box {
       width: ${getvw(606)};
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
 
       .text-box-header {
         border-radius: ${getvw(30)} ${getvw(30)} 0 0;
         font-weight: 600;
         font-size: ${getvw(22)};
         text-align: center;
-        padding: ${getvw(32)} ${getvw(83)};
+        padding: ${getvw(32)};
+        height: 100%;
 
         &#trpbg-one {
           background-color: #87b0d9;

@@ -3,7 +3,7 @@ import styled from "styled-components/macro";
 import { getvw } from "../../assets/styles/mixins";
 import { colors } from "../../assets/styles/variables";
 import treepleMock from "../../assets/images/treeple.svg";
-import trpHeaderImg from "../../assets/images/trp-header1.png";
+import trpHeaderImg from "../../assets/images/treeple-page/trp-header1.png";
 
 const Wrap = styled.div`
   display: flex;

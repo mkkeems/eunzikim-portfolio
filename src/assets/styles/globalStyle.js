@@ -17,6 +17,10 @@ const GlobalStyle = createGlobalStyle`
     h1, h2 {
       font-family: 'Poppins', sans-serif;    
     }
+
+    font-size: ${getvw(18)};
+    line-height: ${getvw(25)};
+
   }
 `;
 
