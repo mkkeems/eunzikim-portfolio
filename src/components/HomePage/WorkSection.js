@@ -52,7 +52,7 @@ const MockupBlock = styled.div`
   }
 
   .product-img-wide {
-    width: ${getvw(492)};
+    width: 100%;
     height: inherit;
     margin: auto;
     filter: drop-shadow(0 0 10px #a1a0a0);
