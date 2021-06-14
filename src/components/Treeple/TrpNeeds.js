@@ -17,13 +17,17 @@ const Wrap = styled.div`
     font-weight: 600;
     text-align: center;
   }
+
+  .trp-needs-img {
+    width: ${getvw(920)};
+  }
 `;
 
 const TrpNeeds = () => {
   return (
     <Wrap>
       <h1>What we need in our service</h1>
-      <img src={trpNeeds} alt="" />
+      <img src={trpNeeds} alt="" className="trp-needs-img" />
     </Wrap>
   );
 };

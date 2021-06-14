@@ -22,6 +22,8 @@ import TrpMotion5 from "../assets/images/treeple-page/trp-motion5.png";
 import TrpfooterImg from "../assets/images/treeple-page/trp-keephealthy.png";
 
 const Wrap = styled.div`
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: auto;
 
