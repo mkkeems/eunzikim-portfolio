@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components/macro";
 import { getvw } from "../assets/styles/mixins";
-import { colors } from "../assets/styles/variables";
 import TrpHeader from "../components/Treeple/TrpHeader";
 import TrpProjectBackground from "../components/Treeple/TrpProjectBackground";
 import TrpDeskResearch from "../components/Treeple/TrpDeskResearch";
@@ -15,7 +14,6 @@ import TrpServiceConcept from "../components/Treeple/TrpServiceConcept";
 import TrpVisualElement from "../components/Treeple/TrpVisualElement";
 import RunningManImg from "../assets/images/treeple-page/runningman.png";
 import TrpMotion1 from "../assets/images/treeple-page/trp-motion1.png";
-import TrpMotion2 from "../assets/images/treeple-page/trp-motion2.png";
 import TrpMotion3 from "../assets/images/treeple-page/trp-motion3.png";
 import TrpMotion4 from "../assets/images/treeple-page/trp-motion4.png";
 import TrpMotion5 from "../assets/images/treeple-page/trp-motion5.png";

@@ -10,11 +10,11 @@ const Wrap = styled.div`
   height: ${getvw(733)};
   padding: ${getvw(130)} ${getvw(396)} ${getvw(70)} ${getvw(306)};
   position: relative;
-  background-image: url(${trpHeaderImg}), linear-gradient(white, #f2f2f2);
+  background-color: #f2f2f2;
+  background-image: url(${trpHeaderImg});
   background-size: ${getvw(648)} auto;
   background-position: 115%;
   background-repeat: no-repeat;
-  /* background: linear-gradient(white, #f2f2f2); */
 
   .header-text {
     width: ${getvw(920)};
