@@ -41,6 +41,7 @@ const Wrap = styled.div`
   }
   .treeple-mock {
     height: 100%;
+    filter: drop-shadow(0 0 10px #a1a0a0);
   }
 
   .header-table {
