@@ -4,6 +4,8 @@ import { PageContainer, Content } from "../components/PageContainer";
 import Navbar from "../components/Navbar";
 import TreeplePage from "./TreeplePage";
 import FreshlyPage from "./FreshlyPage";
+import GoodocPage from "./GoodocPage";
+import KbBankPage from "./KbBankPage";
 
 const WorkPageMain = () => {
   let { path, url } = useRouteMatch();
@@ -15,6 +17,8 @@ const WorkPageMain = () => {
         <Switch>
           <Route exact path={`${path}/treeple`} component={TreeplePage} />
           <Route exact path={`${path}/freshly`} component={FreshlyPage} />
+          <Route exact path={`${path}/goodoc`} component={GoodocPage} />
+          <Route exact path={`${path}/kbbank`} component={KbBankPage} />
           <Redirect from="/work" to={`${path}/treeple`} />
         </Switch>
       </Content>

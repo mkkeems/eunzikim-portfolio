@@ -30,6 +30,7 @@ const MockupBlock = styled.div`
   &.treeple-block {
     border-top: 0;
     border-right: 0;
+    justify-content: space-between;
   }
 
   &.goodoc-block {
@@ -140,7 +141,13 @@ const WorkSection = () => {
             </p>
           </div>
         </div>
-        <img src={goodocMockup} alt="EunziLogo" className="product-img-long" />
+        <Link to="/work/goodoc">
+          <img
+            src={goodocMockup}
+            alt="EunziLogo"
+            className="product-img-long"
+          />
+        </Link>
       </MockupBlock>
       <MockupBlock className="kb-block">
         <div className="mockup-textbox">
@@ -158,7 +165,9 @@ const WorkSection = () => {
             </p>
           </div>
         </div>
-        <img src={kbMockup} alt="EunziLogo" className="product-img-long" />
+        <Link to="/work/kbbank">
+          <img src={kbMockup} alt="EunziLogo" className="product-img-long" />
+        </Link>
       </MockupBlock>
       <MockupBlock className="freshly-block">
         <div className="mockup-textbox">
