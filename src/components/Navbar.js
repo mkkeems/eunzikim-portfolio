@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as ScrollLink } from "react-scroll";
+import { NavHashLink } from "react-router-hash-link";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components/macro";
 import { getvw } from "../assets/styles/mixins";
@@ -50,22 +50,15 @@ const Navbar = () => {
           <img src={eunzilogo} alt="EunziLogo" className="nav-logo" />
         </NavLink>
         <div className="nav-right">
-          <ScrollLink
+          <NavHashLink
             activeClass="active"
-            to="work-section"
-            spy={true}
+            to="/#work-section"
             smooth={true}
-            className="scroll-nav-link"
+            // className="scroll-nav-link"
+            className="nav-link"
           >
-            {/* <NavLink
-              // to="/work"
-              // exact
-              // activeClassName="active-link"
-              className="nav-link"
-            > */}
             Work
-            {/* </NavLink> */}
-          </ScrollLink>
+          </NavHashLink>
           <NavLink
             to="/about"
             exact
