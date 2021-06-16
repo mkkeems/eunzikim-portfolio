@@ -45,6 +45,15 @@ const MockupBlock = styled.div`
   &.freshly-block {
     border-top: 0;
     border-bottom: 0;
+    align-items: stretch;
+  }
+
+  .wide-img {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
   }
 
   .product-img-long {
@@ -56,7 +65,6 @@ const MockupBlock = styled.div`
   .product-img-wide {
     width: 100%;
     height: inherit;
-    margin: auto;
     filter: drop-shadow(0 0 10px #a1a0a0);
   }
 
@@ -167,7 +175,15 @@ const WorkSection = () => {
             </p>
           </div>
         </div>
-        <img src={freshlyMockup} alt="EunziLogo" className="product-img-wide" />
+        <div className="wide-img">
+          <Link to="/work/freshly">
+            <img
+              src={freshlyMockup}
+              alt="EunziLogo"
+              className="product-img-wide"
+            />
+          </Link>
+        </div>
       </MockupBlock>
     </Wrap>
   );
