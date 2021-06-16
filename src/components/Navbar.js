@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components/macro";
 import { getvw } from "../assets/styles/mixins";
@@ -27,6 +28,10 @@ const Wrap = styled.div`
       align-items: center;
     }
 
+    .scroll-nav-link {
+      cursor: pointer;
+    }
+
     .nav-link {
       margin-left: ${getvw(100)};
       text-decoration: none;
@@ -45,14 +50,22 @@ const Navbar = () => {
           <img src={eunzilogo} alt="EunziLogo" className="nav-logo" />
         </NavLink>
         <div className="nav-right">
-          <NavLink
-            to="/work"
-            exact
-            // activeClassName="active-link"
-            className="nav-link"
+          <ScrollLink
+            activeClass="active"
+            to="work-section"
+            spy={true}
+            smooth={true}
+            className="scroll-nav-link"
           >
+            {/* <NavLink
+              // to="/work"
+              // exact
+              // activeClassName="active-link"
+              className="nav-link"
+            > */}
             Work
-          </NavLink>
+            {/* </NavLink> */}
+          </ScrollLink>
           <NavLink
             to="/about"
             exact

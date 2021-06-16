@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components/macro";
 import { getvw } from "../assets/styles/mixins";
+import ScrollToTopOnMount from "../utility/ScrollToTop";
 import FrshHeader from "../components/Freshly/FrshHeader";
 import FrshProblem from "../components/Freshly/FrshProblem";
 import FrshNewVersion from "../components/Freshly/FrshNewVersion";
@@ -31,6 +32,7 @@ const Wrap = styled.div`
 const FreshlyPage = () => {
   return (
     <>
+      <ScrollToTopOnMount />
       <FrshHeader />
       <FrshProblem />
       <Wrap>

@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components/macro";
+import { ScrollToTop } from "react-scroll";
+import { Link } from "react-router-dom";
 import { getvw } from "../../assets/styles/mixins";
 import { colors } from "../../assets/styles/variables";
 import freshlyMockup from "../../assets/images/freshly.svg";
@@ -87,7 +89,7 @@ const MockupBlock = styled.div`
 
 const WorkSection = () => {
   return (
-    <Wrap>
+    <Wrap id="work-section">
       <MockupBlock className="treeple-block">
         <div className="mockup-textbox">
           <div className="num">01</div>
@@ -105,7 +107,13 @@ const WorkSection = () => {
             </p>
           </div>
         </div>
-        <img src={treepleMockup} alt="EunziLogo" className="product-img-long" />
+        <Link to="/work/treeple">
+          <img
+            src={treepleMockup}
+            alt="EunziLogo"
+            className="product-img-long"
+          />
+        </Link>
       </MockupBlock>
       <MockupBlock className="goodoc-block">
         <div className="mockup-textbox">
