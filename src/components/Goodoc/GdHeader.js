@@ -1,33 +1,36 @@
 import React from "react";
+import goodocMock from "../../assets/images/goodoc.svg";
 import ContentPageHeader from "../ContentPageHeader";
-import kbBankMock from "../../assets/images/kbbank.svg";
 
-const KbHeader = () => {
+const GdHeader = () => {
   return (
     <ContentPageHeader>
       <div className="header-text">
         <h1>
-          Banking App <br />
-          Redesign ‘KB Bank’
+          Medical App <br /> Redesign 'Goodoc'
         </h1>
         <h2>
-          Redesign Korean banking app ‘KB’
-          <br /> Decrease wiring money at 12 steps to 6 steps and <br />
-          make users feel safer to make signature
+          Redesign Korean medical app ‘Goodoc’
+          <br />
+          Designed simpler on confusing features and
+          <br />
+          create characters to bridge people and medical help.
         </h2>
 
         <table className="header-table">
           <tr>
             <td className="td-bolded">DURATION</td>
-            <td className="td-text">1 Month</td>
+            <td className="td-text">2 Months</td>
           </tr>
           <tr>
             <td className="td-bolded">MY ROLE</td>
-            <td className="td-text">User Research, Design Strategy</td>
+            <td className="td-text">
+              User Research, Design Strategy, Interaction Design, Visual Design
+            </td>
           </tr>
           <tr>
             <td className="td-bolded">CONTRIBUTION</td>
-            <td className="td-text">70%</td>
+            <td className="td-text">100%</td>
           </tr>
           <tr>
             <td className="td-bolded">PROGRAM</td>
@@ -35,9 +38,9 @@ const KbHeader = () => {
           </tr>
         </table>
       </div>
-      <img src={kbBankMock} alt="kb-bank-mock" className="product-mock-long" />
+      <img src={goodocMock} alt="goodoc-mock" className="product-mock-long" />
     </ContentPageHeader>
   );
 };
 
-export default KbHeader;
+export default GdHeader;
