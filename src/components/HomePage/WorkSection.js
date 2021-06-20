@@ -83,7 +83,12 @@ const MockupBlock = styled.div`
     }
 
     .num {
+      color: ${colors.darkGrey};
+      font-size: ${getvw(20)};
       width: 13%;
+      font-weight: bold;
+      font-style: italic;
+      font-family: "Shippori Mincho", serif;
     }
 
     .text-body {
@@ -110,6 +115,7 @@ const WorkSection = () => {
             <p>
               User Research, Design Strategy, Interaction Design, Visual Design
             </p>
+            <br />
             <p>
               Created ‘Make your supplement pack’ service app in collaboration
               with a team into research existing supplement service and market.
@@ -134,6 +140,7 @@ const WorkSection = () => {
             <p>
               User Research, Design Strategy, Interaction Design, Visual Design
             </p>
+            <br />
             <p>
               Redesign the Korean medical app ‘Goodoc’. Designed simpler on
               confusing features and made characters to bridge people and
@@ -158,6 +165,7 @@ const WorkSection = () => {
               Redesign ‘KB Bank’
             </h2>
             <p>Design Strategy, Interaction Design, Visual Design</p>
+            <br />
             <p>
               Redesign the KB bank app to provide an easy but safe experience
               while wiring money on the app. In collaboration with team into
@@ -178,6 +186,7 @@ const WorkSection = () => {
               Redesign ‘Freshly’
             </h2>
             <p>Design Strategy, Interaction Design, Visual Design</p>
+            <br />
             <p>
               Redesign the Freshly website to deliver what Freshly offers to
               customers and how the service works to new targets.
