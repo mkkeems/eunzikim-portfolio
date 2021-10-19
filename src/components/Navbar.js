@@ -41,6 +41,10 @@ const Wrap = styled.div`
 `;
 
 // TODO: Fix Font Type
+const scrollToWork = () => {
+  const element = document.getElementById("work-section");
+  element.scrollIntoView({ behavior: "smooth" });
+};
 
 const Navbar = () => {
   return (
@@ -52,7 +56,8 @@ const Navbar = () => {
         <div className="nav-right">
           <NavHashLink
             activeClass="active"
-            to="/#work-section"
+            to="/"
+            onClick={scrollToWork}
             smooth={true}
             // className="scroll-nav-link"
             className="nav-link"
