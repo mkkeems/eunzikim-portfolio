@@ -41,10 +41,10 @@ const Wrap = styled.div`
 `;
 
 // TODO: Fix Font Type
-const scrollToWork = () => {
-  const element = document.getElementById("work-section");
-  element.scrollIntoView({ behavior: "smooth" });
-};
+// const scrollToWork = () => {
+//   const element = document.getElementById("work-section");
+//   element.scrollIntoView({ behavior: "smooth" });
+// };
 
 const Navbar = () => {
   return (
@@ -56,8 +56,8 @@ const Navbar = () => {
         <div className="nav-right">
           <NavHashLink
             activeClass="active"
-            to="/"
-            onClick={scrollToWork}
+            to="/#work-section"
+            // onClick={scrollToWork(location)}
             smooth={true}
             // className="scroll-nav-link"
             className="nav-link"
