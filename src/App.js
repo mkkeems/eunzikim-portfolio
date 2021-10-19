@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Reset />
       <GlobalStyle />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={AboutPage} />
         <Route path="/work" component={WorkPageMain} />
