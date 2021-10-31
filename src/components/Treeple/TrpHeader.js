@@ -24,7 +24,7 @@ const TrpHeader = () => {
           <tr>
             <td className="td-bolded">MY ROLE</td>
             <td className="td-text">
-              3 Months User Research, Interaction Design, Visual Design
+              User Research, Interaction Design, Visual Design
             </td>
           </tr>
           <tr>

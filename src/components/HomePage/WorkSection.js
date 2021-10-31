@@ -26,6 +26,27 @@ const MockupBlock = styled.div`
   border: 1px solid ${colors.darkGrey};
   width: 50%;
   padding: ${getvw(80)} ${getvw(100)} ${getvw(50)};
+  position: relative;
+
+  .overlay {
+    display: none;
+  }
+
+  &:hover {
+    .overlay {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #000;
+      opacity: 0.2;
+      transition: all 1s ease;
+      z-index: 9999;
+      cursor: pointer;
+    }
+  }
 
   &.treeple-block {
     border-top: 0;
@@ -101,10 +122,14 @@ const MockupBlock = styled.div`
   }
 `;
 
-const WorkSection = () => {
+const WorkSection = ({ history }) => {
   return (
     <Wrap id="work-section">
       <MockupBlock className="treeple-block">
+        <div
+          class="overlay"
+          onClick={() => history.push("/work/treeple")}
+        ></div>
         <div className="mockup-textbox">
           <div className="num">01</div>
           <div className="text-body">
@@ -122,15 +147,12 @@ const WorkSection = () => {
             </p>
           </div>
         </div>
-        <Link to="/work/treeple">
-          <img
-            src={treepleMockup}
-            alt="EunziLogo"
-            className="product-img-long"
-          />
-        </Link>
+        {/* <Link to="/work/treeple"> */}
+        <img src={treepleMockup} alt="EunziLogo" className="product-img-long" />
+        {/* </Link> */}
       </MockupBlock>
       <MockupBlock className="goodoc-block">
+        <div class="overlay" onClick={() => history.push("/work/goodoc")}></div>
         <div className="mockup-textbox">
           <div className="num">02</div>
           <div className="text-body">
@@ -148,15 +170,12 @@ const WorkSection = () => {
             </p>
           </div>
         </div>
-        <Link to="/work/goodoc">
-          <img
-            src={goodocMockup}
-            alt="EunziLogo"
-            className="product-img-long"
-          />
-        </Link>
+        {/* <Link to="/work/goodoc"> */}
+        <img src={goodocMockup} alt="EunziLogo" className="product-img-long" />
+        {/* </Link> */}
       </MockupBlock>
       <MockupBlock className="kb-block">
+        <div class="overlay" onClick={() => history.push("/work/kbbank")}></div>
         <div className="mockup-textbox">
           <div className="num">03</div>
           <div className="text-body">
@@ -173,11 +192,15 @@ const WorkSection = () => {
             </p>
           </div>
         </div>
-        <Link to="/work/kbbank">
-          <img src={kbMockup} alt="EunziLogo" className="product-img-long" />
-        </Link>
+        {/* <Link to="/work/kbbank"> */}
+        <img src={kbMockup} alt="EunziLogo" className="product-img-long" />
+        {/* </Link> */}
       </MockupBlock>
       <MockupBlock className="freshly-block">
+        <div
+          class="overlay"
+          onClick={() => history.push("/work/freshly")}
+        ></div>
         <div className="mockup-textbox">
           <div className="num">04</div>
           <div className="text-body">
@@ -194,13 +217,13 @@ const WorkSection = () => {
           </div>
         </div>
         <div className="wide-img">
-          <Link to="/work/freshly">
-            <img
-              src={freshlyMockup}
-              alt="EunziLogo"
-              className="product-img-wide"
-            />
-          </Link>
+          {/* <Link to="/work/freshly"> */}
+          <img
+            src={freshlyMockup}
+            alt="EunziLogo"
+            className="product-img-wide"
+          />
+          {/* </Link> */}
         </div>
       </MockupBlock>
     </Wrap>

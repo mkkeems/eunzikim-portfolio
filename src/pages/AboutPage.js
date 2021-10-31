@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components/macro";
 import { getvw } from "../assets/styles/mixins";
-import { colors } from "../assets/styles/variables";
+// import { colors } from "../assets/styles/variables";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { PageContainer } from "../components/PageContainer";
-import aboutImg from "../assets/images/about-img.jpg";
+import aboutImg from "../assets/images/about-image-ekim.jpg";
 
 const Content = styled.div`
   flex: 1 0 auto;
@@ -46,7 +46,7 @@ const AboutPage = () => {
       <Navbar />
       <Content>
         <Wrap>
-          <img src={aboutImg} alt="about-image" className="about-img" />
+          <img src={aboutImg} alt="about" className="about-img" />
           <div className="about-text">
             <div className="title">A little more about me</div>
             <p>

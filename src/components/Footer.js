@@ -4,7 +4,7 @@ import styled from "styled-components/macro";
 import { getvw } from "../assets/styles/mixins";
 import { colors } from "../assets/styles/variables";
 import linkedinIcon from "../assets/images/linkedin-icon.svg";
-import mailIcon from "../assets/images/mail-icon.svg";
+import mailIcon from "../assets/images/mail-icon.png";
 
 const Wrap = styled.div`
   border-top: 1px solid ${colors.darkGrey};
@@ -64,7 +64,10 @@ const Footer = () => {
             <img src={mailIcon} alt="mail icon" className="mail-icon" />
           </a>
         </div>
-        <p>July 2021 © Eunji Kim</p>
+        <p>
+          {new Date().toLocaleString("en-US", { month: "long" })}{" "}
+          {new Date().getFullYear()} © Eunji Kim
+        </p>
       </div>
     </Wrap>
   );

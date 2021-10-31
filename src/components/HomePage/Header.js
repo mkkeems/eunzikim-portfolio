@@ -50,9 +50,10 @@ const Header = () => {
           Nice to e-meet you. I'm <span className="purple">Eunji!</span>
         </h1>
         <h2>
-          A designer with a strong focus on digital products & interactive
-          experiences. I get inspired from everyday life to social issues in a
-          bigger category. Currently looking for new opportunities!
+          A designer with a strong focus on digital products & marketing
+          experiences. <br />I get inspired from everyday life to social issues
+          in a bigger category. <br />
+          Currently looking for new opportunities!
         </h2>
       </div>
     </Wrap>

@@ -62,7 +62,7 @@ const Navbar = () => {
             // className="scroll-nav-link"
             className="nav-link"
           >
-            Work
+            Projects
           </NavHashLink>
           <NavLink
             to="/about"
@@ -72,14 +72,9 @@ const Navbar = () => {
           >
             About
           </NavLink>
-          <NavLink
-            to="/contact"
-            exact
-            // activeClassName="active-link"
-            className="nav-link"
-          >
+          <a href={`mailto:eunzoaz@gmail.com`} className="nav-link">
             Contact
-          </NavLink>
+          </a>
         </div>
       </div>
     </Wrap>
