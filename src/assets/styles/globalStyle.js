@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { colors, fonts } from "./variables";
-import { getvw } from "../../assets/styles/mixins";
+// import { getvw } from "../../assets/styles/mixins";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -13,13 +13,29 @@ const GlobalStyle = createGlobalStyle`
     *{
       box-sizing: border-box;
     }
-    
+
     h1, h2 {
-      font-family: 'Poppins', sans-serif;    
+      font-family: 'Poppins', sans-serif;
     }
 
-    font-size: ${getvw(18)};
-    line-height: ${getvw(25)};
+    h1{
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    h2{
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    p{
+      font-size: 16px;
+      line-height: 1.2;
+    }
+
+    font-size: 18px;
+    line-height: 25px;
 
   }
 `;

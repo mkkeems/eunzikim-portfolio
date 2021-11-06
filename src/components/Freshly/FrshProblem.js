@@ -13,18 +13,18 @@ const Wrap = styled.div`
   text-align: center;
 
   h3 {
-    font-size: ${getvw(20)};
+    font-size: 20px;
     margin-bottom: ${getvw(40)};
     text-transform: uppercase;
   }
   h1 {
-    font-size: ${getvw(30)};
-    line-height: ${getvw(35)};
+    font-size: 30px;
+    line-height: 35px;
   }
   p {
     margin-top: ${getvw(20)};
-    font-size: ${getvw(18)};
-    line-height: ${getvw(20)};
+    font-size: 18px;
+    line-height: 20px;
   }
 `;
 

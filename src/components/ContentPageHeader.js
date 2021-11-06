@@ -28,15 +28,15 @@ const Wrap = styled.div`
   }
 
   h1 {
-    font-size: ${getvw(30)};
-    line-height: ${getvw(40)};
-    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
     margin: 0;
     margin-bottom: ${getvw(56)};
   }
+
   h2 {
-    font-size: ${getvw(25)};
-    line-height: ${getvw(35)};
+    font-size: 20px;
+    line-height: 1.5;
     font-weight: 500;
     color: ${colors.medGrey2};
     margin: 0;
@@ -52,17 +52,17 @@ const Wrap = styled.div`
   }
 
   .header-table {
-    margin-top: ${getvw(35)};
+    margin-top: 24px;
 
     .td-bolded {
-      font-size: ${getvw(25)};
-      line-height: ${getvw(40)};
+      font-size: 20px;
+      line-height: 1.5;
       font-weight: 500;
-      padding-right: ${getvw(35)};
+      padding-right: 35px;
     }
 
     .td-text {
-      font-size: ${getvw(18)};
+      font-size: 16px;
       color: ${colors.medGrey2};
     }
   }

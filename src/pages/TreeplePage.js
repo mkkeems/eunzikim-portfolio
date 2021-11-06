@@ -19,6 +19,15 @@ import TrpMotion3 from "../assets/images/treeple-page/trp-motion3.png";
 import TrpMotion4 from "../assets/images/treeple-page/trp-motion4.png";
 import TrpMotion5 from "../assets/images/treeple-page/trp-motion5.png";
 import TrpfooterImg from "../assets/images/treeple-page/trp-keephealthy.png";
+import TrpGif1 from "../assets/images/treeple-page/trpgif1.gif";
+import TrpGif2 from "../assets/images/treeple-page/trpgif2.gif";
+import TrpGif3 from "../assets/images/treeple-page/trpgif3.gif";
+import TrpGif5 from "../assets/images/treeple-page/trpgif5.gif";
+import TrpGif6 from "../assets/images/treeple-page/trpgif6.gif";
+import TrpGif7 from "../assets/images/treeple-page/trpgif7.gif";
+import TrpGif8 from "../assets/images/treeple-page/trpgif8.gif";
+import TrpGif9 from "../assets/images/treeple-page/trpgif9.gif";
+import TrpGif10 from "../assets/images/treeple-page/trpgif10.gif";
 
 const Wrap = styled.div`
   display: flex;
@@ -28,15 +37,108 @@ const Wrap = styled.div`
 
   .page-img {
     width: 100%;
+    position: relative;
+    z-index: 99;
   }
-  .margin-top {
+
+  /* .margin-top {
     margin-top: ${getvw(144)};
+  } */
+
+  .gif-bg1 {
+    position: relative;
+    background: #eafdff;
+
+    #gif1 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(183)};
+      top: ${getvw(178)};
+      z-index: 1;
+    }
+
+    #gif2 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(655)};
+      top: ${getvw(365)};
+      z-index: 1;
+    }
+
+    #gif3 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(1122)};
+      top: ${getvw(178)};
+      z-index: 1;
+    }
+  }
+  .gif-bg2 {
+    position: relative;
+  }
+  .gif-bg3 {
+    position: relative;
+
+    #gif5 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(500)};
+      top: ${getvw(670)};
+      z-index: 1;
+    }
+
+    #gif6 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(927)};
+      top: ${getvw(760)};
+      z-index: 1;
+    }
+  }
+  .gif-bg4 {
+    position: relative;
+    #gif7 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(434)};
+      top: ${getvw(144)};
+      z-index: 1;
+    }
+
+    #gif8 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(1012)};
+      top: ${getvw(785)};
+      z-index: 1;
+    }
+    #gif9 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(400)};
+      bottom: ${getvw(1706)};
+      z-index: 1;
+    }
+
+    #gif10 {
+      position: absolute;
+      width: ${getvw(332)};
+      left: ${getvw(308)};
+      bottom: ${getvw(237)};
+      z-index: 1;
+    }
+  }
+`;
+
+const Container = styled.div`
+  h1 {
+    font-size: 28px;
   }
 `;
 
 const TreeplePage = () => {
   return (
-    <>
+    <Container>
       <ScrollToTopOnMount />
       <TrpHeader />
       <TrpProjectBackground />
@@ -51,17 +153,34 @@ const TreeplePage = () => {
       <TrpVisualElement />
       <Wrap>
         <img src={RunningManImg} alt="running man" className="page-img" />
-        <img
-          src={TrpMotion1}
-          alt="TrpMotion1"
-          className="page-img margin-top"
-        />
-        <img src={TrpMotion3} alt="TrpMotion3" className="page-img" />
-        <img src={TrpMotion4} alt="TrpMotion4" className="page-img" />
-        <img src={TrpMotion5} alt="TrpMotion5" className="page-img" />
+        <div className="gif-bg1">
+          <img
+            src={TrpMotion1}
+            alt="TrpMotion1"
+            className="page-img margin-top img1"
+          />
+          <img src={TrpGif1} alt="" id="gif1" className="trpgif" />
+          <img src={TrpGif2} alt="" id="gif2" className="trpgif" />
+          <img src={TrpGif3} alt="" id="gif3" className="trpgif" />
+        </div>
+        <div className="gif-bg2">
+          <img src={TrpMotion3} alt="TrpMotion3" className="page-img img2" />
+        </div>
+        <div className="gif-bg3">
+          <img src={TrpMotion4} alt="TrpMotion4" className="page-img img3" />
+          <img src={TrpGif5} alt="" id="gif5" className="trpgif" />
+          <img src={TrpGif6} alt="" id="gif6" className="trpgif" />
+        </div>
+        <div className="gif-bg4">
+          <img src={TrpMotion5} alt="TrpMotion5" className="page-img img4" />
+          <img src={TrpGif7} alt="" id="gif7" className="trpgif" />
+          <img src={TrpGif8} alt="" id="gif8" className="trpgif" />
+          <img src={TrpGif9} alt="" id="gif9" className="trpgif" />
+          <img src={TrpGif10} alt="" id="gif10" className="trpgif" />
+        </div>
         <img src={TrpfooterImg} alt="Trp footer img" className="page-img" />
       </Wrap>
-    </>
+    </Container>
   );
 };
 

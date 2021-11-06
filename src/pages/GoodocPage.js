@@ -75,16 +75,16 @@ const GoodocPage = () => {
       <GdPersonas />
       <Wrap>
         <img src={GdNewBtnImg} alt="" className="newbtn" />
-        <img src={GdGoalImg} className="page-img" />
+        <img src={GdGoalImg} className="page-img" alt="GD Goal" />
       </Wrap>
       <GdWorkflow />
       <GdDesignElement />
       <Wrap className="blue-bg">
-        <img src={GdGreetingImg} className="page-img" />
-        <img src={GdNavigateImg} className="center-img" />
-        <img src={GdBrandIdImg} className="center-img2" />
-        <img src={GdExtraImg} className="page-img" />
-        <img src={GdFooterImg} className="page-img" />
+        <img src={GdGreetingImg} className="page-img" alt="GD Greeting" />
+        <img src={GdNavigateImg} className="center-img" alt="GD Navigate" />
+        <img src={GdBrandIdImg} className="center-img2" alt="GD Brand ID" />
+        <img src={GdExtraImg} className="page-img" alt="GD extra" />
+        <img src={GdFooterImg} className="page-img" alt="GD footer" />
       </Wrap>
     </>
   );

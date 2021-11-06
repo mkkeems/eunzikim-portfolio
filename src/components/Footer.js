@@ -18,7 +18,7 @@ const Wrap = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: ${getvw(18)};
+    font-size: 18px;
     font-weight: 500;
     padding: ${getvw(36)} 0;
     margin: 0 ${getvw(306)};

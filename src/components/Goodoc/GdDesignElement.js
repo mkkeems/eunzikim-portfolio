@@ -22,7 +22,7 @@ const Wrap = styled.div`
     color: #2f2f2f;
     text-transform: uppercase;
     margin-bottom: ${getvw(70)};
-    font-size: ${getvw(30)};
+    font-size: 30px;
   }
 
   img {

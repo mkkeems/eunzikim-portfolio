@@ -13,15 +13,13 @@ const Wrap = styled.div`
 
   h1 {
     text-transform: uppercase;
-    font-size: ${getvw(35)};
-    font-weight: 600;
     text-align: center;
   }
 
   .map-wrap {
     background-color: #e3e3e3;
-    border-radius: ${getvw(35)};
-    padding: ${getvw(126)} ${getvw(176)};
+    border-radius: 35px;
+    padding: 100px 140px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -29,13 +27,15 @@ const Wrap = styled.div`
   }
   .trpmap {
     width: 80%;
-    margin-top: ${getvw(77)};
+    margin-top: 60px;
   }
   .trpmap-description {
-    margin-top: ${getvw(77)};
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 60px;
     background-color: ${colors.aqua};
-    border-radius: ${getvw(25)};
-    padding: ${getvw(36)} ${getvw(72)};
+    border-radius: 25px;
+    padding: 28px 60px;
   }
 `;
 

@@ -24,15 +24,13 @@ const Wrap = styled.div`
   }
 
   h1 {
-    font-size: ${getvw(48)};
-    line-height: ${getvw(56)};
+    /* font-size: 42px;
+    line-height: 1.2; */
     font-weight: 500;
     margin: 0;
     margin-bottom: ${getvw(56)};
   }
   h2 {
-    font-size: ${getvw(30)};
-    line-height: ${getvw(35)};
     font-weight: 400;
     color: ${colors.darkGrey};
     margin: 0;
@@ -51,9 +49,8 @@ const Header = () => {
         </h1>
         <h2>
           A designer with a strong focus on digital products & marketing
-          experiences. <br />I get inspired from everyday life to social issues
-          in a bigger category. <br />
-          Currently looking for new opportunities!
+          experiences. I get inspired from everyday life to social issues in a
+          bigger category. Currently looking for new opportunities!
         </h2>
       </div>
     </Wrap>

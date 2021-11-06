@@ -23,8 +23,8 @@ const Wrap = styled.div`
     color: #2f2f2f;
     text-transform: uppercase;
     margin: ${getvw(90)} 0px;
-    font-size: ${getvw(30)};
-    line-height: ${getvw(35)};
+    font-size: 30px;
+    line-height: 35px;
   }
 
   img {
@@ -47,7 +47,7 @@ const GdPersonas = () => {
       <div className="title">
         <p>Synthesize</p>
       </div>
-      <img src={GdSynthesizeImg} className="synthesize-img" />
+      <img src={GdSynthesizeImg} className="synthesize-img" alt="synthesize" />
     </Wrap>
   );
 };

@@ -23,16 +23,16 @@ const Wrap = styled.div`
   }
   .about-text {
     .title {
-      font-size: ${getvw(30)};
-      line-height: ${getvw(36)};
+      font-size: 30px;
+      line-height: 36px;
       width: 100%;
       padding-bottom: ${getvw(10)};
       border-bottom: 1px solid black;
     }
     p {
       margin-top: ${getvw(30)};
-      font-size: ${getvw(18)};
-      line-height: ${getvw(30)};
+      font-size: 18px;
+      line-height: 30px;
     }
   }
   .links {

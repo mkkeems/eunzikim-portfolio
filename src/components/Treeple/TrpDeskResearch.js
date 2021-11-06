@@ -11,21 +11,20 @@ const Wrap = styled.div`
   background-color: white;
 
   h1 {
+    font-size: 28px;
     text-transform: uppercase;
-    font-size: ${getvw(35)};
-    font-weight: 600;
     text-align: center;
   }
 
   .desk-research-wrap {
     background-color: #f7f2dd;
-    border-radius: ${getvw(35)};
-    padding: ${getvw(126)} ${getvw(176)};
+    border-radius: 35px;
+    padding: 80px 140px;
     width: 100%;
   }
 
   .trp-desk-research-table {
-    margin-top: ${getvw(110)};
+    margin-top: 100px;
     width: 100%;
     border-collapse: collapse;
     border-style: hidden;
@@ -37,9 +36,9 @@ const Wrap = styled.div`
 
     th {
       background-color: #ebfbfc;
-      padding: ${getvw(30)};
+      padding: 24px;
       color: #2362e0;
-      font-size: ${getvw(20)};
+      font-size: 16px;
       font-weight: 600;
     }
 
@@ -49,17 +48,17 @@ const Wrap = styled.div`
       }
       td {
         width: 20%;
-        padding: ${getvw(33)} ${getvw(33)} ${getvw(33)} ${getvw(40)};
+        padding: 30px;
         background-color: white;
-        font-size: ${getvw(18)};
-        line-height: ${getvw(30)};
+        font-size: 14px;
+        line-height: 1.8;
         vertical-align: middle;
 
         ul {
           list-style-position: outside;
           list-style-type: "-  ";
           li {
-            margin-bottom: ${getvw(33)};
+            margin-bottom: 28px;
           }
           li:last-child {
             margin-bottom: 0%;
@@ -72,7 +71,7 @@ const Wrap = styled.div`
         background-color: #ebfbfc;
         text-align: center;
         color: ${colors.aqua};
-        font-size: ${getvw(20)};
+        font-size: 16px;
         font-weight: 600;
       }
     }

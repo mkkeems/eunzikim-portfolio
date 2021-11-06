@@ -13,9 +13,7 @@ const Wrap = styled.div`
   h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: ${getvw(35)};
-    font-weight: 600;
-    text-align: center;
+    margin-bottom: 30px;
   }
 
   .trp-needs-img {

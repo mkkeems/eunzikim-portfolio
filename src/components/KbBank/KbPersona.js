@@ -23,8 +23,6 @@ const Wrap = styled.div`
     text-transform: uppercase;
     margin-left: ${getvw(28)};
     margin-bottom: ${getvw(60)};
-    font-size: ${getvw(18)};
-    line-height: ${getvw(20)};
   }
 
   img {
@@ -39,7 +37,7 @@ const KbPersona = () => {
         <p>Persona</p>
       </div>
       <div className="img-wrap">
-        <img src={KbPersonaImg} alt="kb bank persona image" />
+        <img src={KbPersonaImg} alt="kb bank persona" />
       </div>
     </Wrap>
   );

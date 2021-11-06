@@ -16,9 +16,6 @@ const Wrap = styled.div`
   h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: ${getvw(35)};
-    font-weight: 600;
-    text-align: center;
   }
 
   .flex-wrap {
@@ -36,7 +33,8 @@ const Wrap = styled.div`
     width: ${getvw(610)};
 
     table {
-      margin-top: ${getvw(65)};
+      font-size: 14px;
+      margin-top: 65px;
       background-color: #efeee9;
       border-radius: ${getvw(15)};
       width: 100%;
@@ -49,8 +47,8 @@ const Wrap = styled.div`
 
       tr {
         td:first-child {
+          font-size: 16px;
           width: 22%;
-          font-size: ${getvw(20)};
           vertical-align: middle;
         }
       }
@@ -72,29 +70,26 @@ const Wrap = styled.div`
       margin-bottom: ${getvw(18)};
       display: flex;
       align-items: center;
-
-      &.wider {
-        margin-bottom: ${getvw(20)};
-        margin-top: ${getvw(18)};
-      }
     }
     .num-circle {
-      margin-right: ${getvw(14)};
-      width: ${getvw(28)};
-      height: ${getvw(28)};
-      border-radius: 50%;
+      margin-right: 14px;
+      padding: 12px;
+      border-radius: 45px;
       background: #bdd7df;
       display: flex;
       align-items: center;
       justify-content: space-around;
+      position: relative;
 
-      &#wide {
-        width: ${getvw(32)};
+      .num-num {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
     .interview-wrap {
       background-color: #d5beb0;
-      border-radius: ${getvw(35)};
+      border-radius: 35px;
       width: ${getvw(610)};
     }
   }
@@ -123,20 +118,28 @@ const TrpSurveyInterviews = () => {
               <td>
                 <ul>
                   <li>
-                    <div className="num-circle">1</div>Status of taking
-                    supplements for health
+                    <div className="num-circle">
+                      <p className="num-num">1</p>
+                    </div>
+                    Status of taking supplements for health
                   </li>
                   <li>
-                    <div className="num-circle">2</div>Understand the
-                    precautions
+                    <div className="num-circle">
+                      <p className="num-num">2</p>
+                    </div>
+                    Understand the precautions
                   </li>
                   <li>
-                    <div className="num-circle">3</div>Needs and perception of
-                    supplements
+                    <div className="num-circle">
+                      <p className="num-num">3</p>
+                    </div>
+                    Needs and perception of supplements
                   </li>
                   <li>
-                    <div className="num-circle">4</div>Information of supplement
-                    shopping
+                    <div className="num-circle">
+                      <p className="num-num">4</p>
+                    </div>
+                    Information of supplement shopping
                   </li>
                 </ul>
               </td>
@@ -159,18 +162,22 @@ const TrpSurveyInterviews = () => {
               <td>
                 <ul>
                   <li className="wider">
-                    <div className="num-circle" id="wide">
-                      1
+                    <div className="num-circle">
+                      <p className="num-num">1</p>
                     </div>
                     Identification of behavior patterns on health care
                   </li>
                   <li className="wider">
-                    <div className="num-circle">2</div>Problems related to
-                    supplements
+                    <div className="num-circle">
+                      <p className="num-num">2</p>
+                    </div>
+                    Problems related to supplements
                   </li>
                   <li className="wider">
-                    <div className="num-circle">3</div>Needs and service idea of
-                    supplements
+                    <div className="num-circle">
+                      <p className="num-num">3</p>
+                    </div>
+                    Needs and service idea of supplements
                   </li>
                 </ul>
               </td>

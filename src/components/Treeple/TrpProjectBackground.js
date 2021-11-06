@@ -14,8 +14,7 @@ const Wrap = styled.div`
   h1 {
     text-transform: uppercase;
     color: ${colors.darkGrey2};
-    font-size: ${getvw(30)};
-    font-weight: 600;
+    font-size: 24px;
     padding-bottom: 2px;
     border-bottom: 3px solid ${colors.aqua};
   }
@@ -39,11 +38,14 @@ const Wrap = styled.div`
       align-items: stretch;
 
       .text-box-header {
-        border-radius: ${getvw(30)} ${getvw(30)} 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 30px 30px 0 0;
         font-weight: 600;
-        font-size: ${getvw(22)};
+        font-size: 18px;
         text-align: center;
-        padding: ${getvw(32)};
+        padding: 22px;
         height: 100%;
 
         &#trpbg-one {
@@ -60,11 +62,16 @@ const Wrap = styled.div`
         }
       }
       .text-box-content {
-        font-size: ${getvw(18)};
-        line-height: ${getvw(30)};
-        border-radius: 0 0 ${getvw(30)} ${getvw(30)};
+        font-size: 14px;
+        line-height: 2;
+        border-radius: 0 0 30px 30px;
         background-color: white;
-        padding: ${getvw(32)} ${getvw(83)};
+        padding: 22px;
+
+        .text-box-content-text {
+          margin: auto;
+          width: 80%;
+        }
       }
     }
   }
@@ -81,7 +88,10 @@ const TrpProjectBackground = () => {
             More Interest on Wellness
           </div>
           <div className="text-box-content">
-            Especially all age group shows high interest in wellness and health
+            <div className="text-box-content-text">
+              Especially all age group shows high interest in wellness and
+              health
+            </div>
           </div>
         </div>
         <div className="text-box">
@@ -89,7 +99,10 @@ const TrpProjectBackground = () => {
             More Interest on Wellness
           </div>
           <div className="text-box-content">
-            Especially all age group shows high interest in wellness and health
+            <div className="text-box-content-text">
+              Especially all age group shows high interest in wellness and
+              health
+            </div>
           </div>
         </div>
       </div>
@@ -99,7 +112,9 @@ const TrpProjectBackground = () => {
             More Intake of Supplements
           </div>
           <div className="text-box-content">
-            High interest in health leads to high demand for supplements
+            <div className="text-box-content-text">
+              High interest in health leads to high demand for supplements
+            </div>
           </div>
         </div>
         <div className="text-box">
@@ -107,8 +122,10 @@ const TrpProjectBackground = () => {
             Needs on Motivation to Take Supplements Regularly
           </div>
           <div className="text-box-content">
-            Existing personalized supplement services are not offering intake
-            management
+            <div className="text-box-content-text">
+              Existing personalized supplement services are not offering intake
+              management
+            </div>
           </div>
         </div>
       </div>

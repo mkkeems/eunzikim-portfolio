@@ -8,7 +8,7 @@ import GoodocPage from "./GoodocPage";
 import KbBankPage from "./KbBankPage";
 
 const WorkPageMain = () => {
-  let { path, url } = useRouteMatch();
+  let { path } = useRouteMatch();
 
   return (
     <PageContainer>

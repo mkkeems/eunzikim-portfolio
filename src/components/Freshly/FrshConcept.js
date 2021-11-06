@@ -19,8 +19,6 @@ const Wrap = styled.div`
     color: black;
     text-transform: uppercase;
     margin-bottom: ${getvw(102)};
-    font-size: ${getvw(18)};
-    line-height: ${getvw(20)};
   }
 
   img {

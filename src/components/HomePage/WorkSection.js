@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components/macro";
-import { ScrollToTop } from "react-scroll";
-import { Link } from "react-router-dom";
+// import { ScrollToTop } from "react-scroll";
+// import { Link } from "react-router-dom";
 import { getvw } from "../../assets/styles/mixins";
 import { colors } from "../../assets/styles/variables";
 import freshlyMockup from "../../assets/images/freshly.svg";
@@ -98,14 +98,12 @@ const MockupBlock = styled.div`
     h2 {
       margin: 0;
       margin-bottom: ${getvw(50)};
-      font-size: ${getvw(30)};
-      line-height: ${getvw(35)};
       color: ${colors.darkGrey};
     }
 
     .num {
       color: ${colors.darkGrey};
-      font-size: ${getvw(20)};
+      font-size: 20px;
       width: 13%;
       font-weight: bold;
       font-style: italic;
@@ -114,10 +112,10 @@ const MockupBlock = styled.div`
 
     .text-body {
       width: 87%;
-      font-size: ${getvw(18)};
+      font-size: 18px};
       font-family: "Arial";
       margin-bottom: ${getvw(72)};
-      line-height: ${getvw(24)};
+      line-height: 24px;
     }
   }
 `;
