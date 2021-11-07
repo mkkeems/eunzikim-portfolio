@@ -159,24 +159,24 @@ const TreeplePage = () => {
             alt="TrpMotion1"
             className="page-img margin-top img1"
           />
-          <img src={TrpGif1} alt="" id="gif1" className="trpgif" />
-          <img src={TrpGif2} alt="" id="gif2" className="trpgif" />
-          <img src={TrpGif3} alt="" id="gif3" className="trpgif" />
+          <img src={TrpGif1} alt="TrpGif1" id="gif1" className="trpgif" />
+          <img src={TrpGif2} alt="TrpGif2" id="gif2" className="trpgif" />
+          <img src={TrpGif3} alt="TrpGif3" id="gif3" className="trpgif" />
         </div>
         <div className="gif-bg2">
           <img src={TrpMotion3} alt="TrpMotion3" className="page-img img2" />
         </div>
         <div className="gif-bg3">
           <img src={TrpMotion4} alt="TrpMotion4" className="page-img img3" />
-          <img src={TrpGif5} alt="" id="gif5" className="trpgif" />
-          <img src={TrpGif6} alt="" id="gif6" className="trpgif" />
+          <img src={TrpGif5} alt="TrpGif5" id="gif5" className="trpgif" />
+          <img src={TrpGif6} alt="TrpGif6" id="gif6" className="trpgif" />
         </div>
         <div className="gif-bg4">
           <img src={TrpMotion5} alt="TrpMotion5" className="page-img img4" />
-          <img src={TrpGif7} alt="" id="gif7" className="trpgif" />
-          <img src={TrpGif8} alt="" id="gif8" className="trpgif" />
-          <img src={TrpGif9} alt="" id="gif9" className="trpgif" />
-          <img src={TrpGif10} alt="" id="gif10" className="trpgif" />
+          <img src={TrpGif7} alt="TrpGif7" id="gif7" className="trpgif" />
+          <img src={TrpGif8} alt="TrpGif8" id="gif8" className="trpgif" />
+          <img src={TrpGif9} alt="TrpGif9" id="gif9" className="trpgif" />
+          <img src={TrpGif10} alt="TrpGif10" id="gif10" className="trpgif" />
         </div>
         <img src={TrpfooterImg} alt="Trp footer img" className="page-img" />
       </Wrap>
