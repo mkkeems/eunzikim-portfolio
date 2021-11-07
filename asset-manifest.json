@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/eunzikim-portfolio/static/js/main.c6b156bb.chunk.js",
-    "main.js.map": "/eunzikim-portfolio/static/js/main.c6b156bb.chunk.js.map",
+    "main.js": "/eunzikim-portfolio/static/js/main.2e786f14.chunk.js",
+    "main.js.map": "/eunzikim-portfolio/static/js/main.2e786f14.chunk.js.map",
     "runtime-main.js": "/eunzikim-portfolio/static/js/runtime-main.a2669648.js",
     "runtime-main.js.map": "/eunzikim-portfolio/static/js/runtime-main.a2669648.js.map",
     "static/js/2.f782b032.chunk.js": "/eunzikim-portfolio/static/js/2.f782b032.chunk.js",
@@ -24,16 +24,21 @@
     "static/media/gd-brandid.a32bcb5d.png": "/eunzikim-portfolio/static/media/gd-brandid.a32bcb5d.png",
     "static/media/gd-currentvr.5064ac3c.png": "/eunzikim-portfolio/static/media/gd-currentvr.5064ac3c.png",
     "static/media/gd-designelements.a7229797.png": "/eunzikim-portfolio/static/media/gd-designelements.a7229797.png",
-    "static/media/gd-extrapgs.91517ba3.png": "/eunzikim-portfolio/static/media/gd-extrapgs.91517ba3.png",
+    "static/media/gd-extrapgs.eee3dd6b.png": "/eunzikim-portfolio/static/media/gd-extrapgs.eee3dd6b.png",
     "static/media/gd-footerimg.76da7c71.png": "/eunzikim-portfolio/static/media/gd-footerimg.76da7c71.png",
     "static/media/gd-goal.c5a99fc7.png": "/eunzikim-portfolio/static/media/gd-goal.c5a99fc7.png",
-    "static/media/gd-greeting.78d38a83.png": "/eunzikim-portfolio/static/media/gd-greeting.78d38a83.png",
+    "static/media/gd-greeting.cb8ece95.png": "/eunzikim-portfolio/static/media/gd-greeting.cb8ece95.png",
     "static/media/gd-intro.9f525acf.png": "/eunzikim-portfolio/static/media/gd-intro.9f525acf.png",
-    "static/media/gd-navigate.9517ffb9.png": "/eunzikim-portfolio/static/media/gd-navigate.9517ffb9.png",
+    "static/media/gd-navigate.44e67707.png": "/eunzikim-portfolio/static/media/gd-navigate.44e67707.png",
     "static/media/gd-persona.939169e8.png": "/eunzikim-portfolio/static/media/gd-persona.939169e8.png",
     "static/media/gd-synthesize.a8f11e7b.png": "/eunzikim-portfolio/static/media/gd-synthesize.a8f11e7b.png",
     "static/media/gd-workflow.fe6a0886.png": "/eunzikim-portfolio/static/media/gd-workflow.fe6a0886.png",
     "static/media/goodoc.fe3ffed6.svg": "/eunzikim-portfolio/static/media/goodoc.fe3ffed6.svg",
+    "static/media/goodoc2.1421d6b5.gif": "/eunzikim-portfolio/static/media/goodoc2.1421d6b5.gif",
+    "static/media/goodoc3.3f6ba7db.gif": "/eunzikim-portfolio/static/media/goodoc3.3f6ba7db.gif",
+    "static/media/goodoc5.5218190b.gif": "/eunzikim-portfolio/static/media/goodoc5.5218190b.gif",
+    "static/media/goodoc6.a402a749.gif": "/eunzikim-portfolio/static/media/goodoc6.a402a749.gif",
+    "static/media/goodoc7.4b65299d.gif": "/eunzikim-portfolio/static/media/goodoc7.4b65299d.gif",
     "static/media/kb-background1.c874133e.png": "/eunzikim-portfolio/static/media/kb-background1.c874133e.png",
     "static/media/kb-background2.e4b5588e.png": "/eunzikim-portfolio/static/media/kb-background2.e4b5588e.png",
     "static/media/kb-background3.3ce042fa.png": "/eunzikim-portfolio/static/media/kb-background3.3ce042fa.png",
@@ -83,6 +88,6 @@
   "entrypoints": [
     "static/js/runtime-main.a2669648.js",
     "static/js/2.f782b032.chunk.js",
-    "static/js/main.c6b156bb.chunk.js"
+    "static/js/main.2e786f14.chunk.js"
   ]
 }
