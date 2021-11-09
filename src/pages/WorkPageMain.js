@@ -19,7 +19,7 @@ const WorkPageMain = () => {
           <Route exact path={`${path}/freshly`} component={FreshlyPage} />
           <Route exact path={`${path}/goodoc`} component={GoodocPage} />
           <Route exact path={`${path}/kbbank`} component={KbBankPage} />
-          <Redirect from="/work" to={`${path}/treeple`} />
+          <Redirect from="/projects" to={`${path}/treeple`} />
         </Switch>
       </Content>
     </PageContainer>
