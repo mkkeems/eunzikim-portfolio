@@ -126,7 +126,7 @@ const WorkSection = ({ history }) => {
       <MockupBlock className="treeple-block">
         <div
           class="overlay"
-          onClick={() => history.push("/work/treeple")}
+          onClick={() => history.push("/projects/treeple")}
         ></div>
         <div className="mockup-textbox">
           <div className="num">01</div>
@@ -150,7 +150,10 @@ const WorkSection = ({ history }) => {
         {/* </Link> */}
       </MockupBlock>
       <MockupBlock className="goodoc-block">
-        <div class="overlay" onClick={() => history.push("/work/goodoc")}></div>
+        <div
+          class="overlay"
+          onClick={() => history.push("/projects/goodoc")}
+        ></div>
         <div className="mockup-textbox">
           <div className="num">02</div>
           <div className="text-body">
@@ -173,7 +176,10 @@ const WorkSection = ({ history }) => {
         {/* </Link> */}
       </MockupBlock>
       <MockupBlock className="kb-block">
-        <div class="overlay" onClick={() => history.push("/work/kbbank")}></div>
+        <div
+          class="overlay"
+          onClick={() => history.push("/projects/kbbank")}
+        ></div>
         <div className="mockup-textbox">
           <div className="num">03</div>
           <div className="text-body">
@@ -197,7 +203,7 @@ const WorkSection = ({ history }) => {
       <MockupBlock className="freshly-block">
         <div
           class="overlay"
-          onClick={() => history.push("/work/freshly")}
+          onClick={() => history.push("/projects/freshly")}
         ></div>
         <div className="mockup-textbox">
           <div className="num">04</div>
