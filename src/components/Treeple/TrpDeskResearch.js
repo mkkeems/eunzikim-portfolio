@@ -29,6 +29,10 @@ const Wrap = styled.div`
     border-collapse: collapse;
     border-style: hidden;
 
+    display: block;
+    overflow-x: auto;
+    /* white-space: nowrap; */
+
     td,
     th {
       border: 1px solid #dedede;
@@ -73,6 +77,27 @@ const Wrap = styled.div`
         color: ${colors.aqua};
         font-size: 16px;
         font-weight: 600;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .desk-research-wrap {
+      padding: 30px;
+    }
+    .trp-desk-research-table {
+      margin-top: 30px;
+      th {
+        font-size: 14px;
+      }
+      tr {
+        td:first-child {
+          font-size: 14px;
+        }
+        td {
+          font-size: 12px;
+          padding: 10px 20px;
+        }
       }
     }
   }

@@ -37,6 +37,12 @@ const Wrap = styled.div`
     border-radius: 25px;
     padding: 28px 60px;
   }
+
+  @media only screen and (max-width: 768px) {
+    .map-wrap {
+      padding: 30px;
+    }
+  }
 `;
 
 const TrpPerceptualMapping = () => {

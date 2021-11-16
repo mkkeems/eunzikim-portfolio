@@ -134,6 +134,12 @@ const Container = styled.div`
   h1 {
     font-size: 28px;
   }
+
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
 `;
 
 const TreeplePage = () => {

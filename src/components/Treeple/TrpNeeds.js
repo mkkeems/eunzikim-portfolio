@@ -19,6 +19,12 @@ const Wrap = styled.div`
   .trp-needs-img {
     width: ${getvw(920)};
   }
+
+  @media only screen and (max-width: 768px) {
+    .trp-needs-img {
+      width: 100%;
+    }
+  }
 `;
 
 const TrpNeeds = () => {
