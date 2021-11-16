@@ -10,11 +10,3 @@ export const colors = {
   purple: `#7134c4`,
   aqua: `#36d0d0`,
 };
-
-export const fonts = {
-  // primary: `ABChanel PB SemiBold S`,
-  // primaryRegular: `ABChanel PB Regular`,
-  // koreanBold: `Malgun Gothic Bold`,
-  // korean: `Malgun Gothic`,
-  // futura: `futura-pt`,
-};

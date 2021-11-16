@@ -35,6 +35,17 @@ const Wrap = styled.div`
     color: ${colors.darkGrey};
     margin: 0;
   }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 46px;
+    padding: 40px 30px;
+
+    .fistbump {
+      right: 20px;
+      top: 20px;
+      width: 160px;
+    }
+  } ;
 `;
 
 const Header = () => {
