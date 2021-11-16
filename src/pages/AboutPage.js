@@ -12,14 +12,21 @@ const Content = styled.div`
   flex: 1 0 auto;
   padding: ${getvw(125)} ${getvw(306)};
   justify-content: space-around;
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 55px;
+    padding: 20px 40px;
+  }
 `;
 
 const Wrap = styled.div`
   display: flex;
+  align-items: center;
 
   .about-img {
     width: ${getvw(480)};
     margin-right: ${getvw(131)};
+    height: auto;
   }
   .about-text {
     .title {
@@ -38,6 +45,26 @@ const Wrap = styled.div`
   .links {
     color: black;
   }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+
+    .about-img {
+      width: 100%;
+      max-width: 400px;
+      margin-right: 0;
+      margin-bottom: 20px;
+      height: auto;
+    }
+
+    .about-text {
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+  }
 `;
 
 const AboutPage = () => {
@@ -46,7 +73,9 @@ const AboutPage = () => {
       <Navbar />
       <Content>
         <Wrap>
-          <img src={aboutImg} alt="about" className="about-img" />
+          <div className="img">
+            <img src={aboutImg} alt="about" className="about-img" />
+          </div>
           <div className="about-text">
             <div className="title">A little more about me</div>
             <p>
