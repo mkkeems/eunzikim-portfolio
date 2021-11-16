@@ -13,6 +13,7 @@ const Wrap = styled.div`
 
   border-bottom: 1px solid black;
   padding: ${getvw(24)} ${getvw(260)};
+  min-height: 45px;
 
   .nav-content {
     display: flex;
@@ -20,7 +21,8 @@ const Wrap = styled.div`
     align-items: center;
 
     .nav-logo {
-      height: ${getvw(27)};
+      height: 28px;
+      transform: translateY(3px);
     }
 
     .nav-right {
@@ -36,6 +38,24 @@ const Wrap = styled.div`
       margin-left: ${getvw(100)};
       text-decoration: none;
       color: ${colors.black};
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    position: fixed;
+    top: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    z-index: 9;
+    padding: 10px 30px;
+
+    .nav-content {
+      .nav-link {
+        font-size: 14px;
+      }
+      .nav-logo {
+        height: 18px;
+      }
     }
   }
 `;

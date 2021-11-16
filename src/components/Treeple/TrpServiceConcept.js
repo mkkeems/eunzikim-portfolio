@@ -26,9 +26,13 @@ const Wrap = styled.div`
     border-radius: ${getvw(18)};
     background-color: white;
     box-shadow: -1px 3px 0px rgba(135, 135, 135, 0.2);
-    line-height: ${getvw(36)};
+    line-height: 1.5;
     color: #41444e;
     font-size: 14px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 30px;
   }
 `;
 

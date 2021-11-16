@@ -1,11 +1,10 @@
 import { createGlobalStyle } from "styled-components";
-import { colors, fonts } from "./variables";
+import { colors } from "./variables";
 // import { getvw } from "../../assets/styles/mixins";
 
 const GlobalStyle = createGlobalStyle`
 
   body {
-    /* font-family: ${fonts.primary}, ${fonts.koreanBold}, sans-serif; */
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     background-color: ${colors.bgLightGrey};
@@ -37,6 +36,15 @@ const GlobalStyle = createGlobalStyle`
     font-size: 18px;
     line-height: 25px;
 
+    @media only screen and (max-width: 768px) {
+      font-size: 16px;
+      h1{
+        font-size: 30px;
+      }
+      h2{
+        font-size: 20px;
+      }
+    }
   }
 `;
 

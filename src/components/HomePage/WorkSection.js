@@ -17,6 +17,10 @@ const Wrap = styled.div`
   padding: 0 ${getvw(306)};
   justify-content: space-around;
   flex-shrink: 0;
+
+  @media only screen and (max-width: 768px) {
+    padding: 0 30px;
+  }
 `;
 
 const MockupBlock = styled.div`
@@ -112,10 +116,43 @@ const MockupBlock = styled.div`
 
     .text-body {
       width: 87%;
-      font-size: 18px};
+      font-size: 18px;
       font-family: "Arial";
       margin-bottom: ${getvw(72)};
       line-height: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 16px 24px 18px;
+
+    .mockup-textbox {
+      .num {
+        font-size: 18px;
+      }
+    }
+
+    .product-img-wide {
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    width: 100%;
+
+    .product-img-long {
+      width: 30%;
+      height: auto;
+    }
+
+    &.treeple-block {
+      border-right: 1px solid ${colors.darkGrey};
+    }
+
+    &.kb-block {
+      border-right: 1px solid ${colors.darkGrey};
+      border-bottom: 1px solid ${colors.darkGrey};
     }
   }
 `;

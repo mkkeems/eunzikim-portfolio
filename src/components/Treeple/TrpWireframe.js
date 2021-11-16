@@ -19,6 +19,10 @@ const Wrap = styled.div`
   img {
     width: 100%;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding: 30px;
+  }
 `;
 
 const TrpWireframe = () => {

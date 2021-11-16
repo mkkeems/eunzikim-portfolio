@@ -36,7 +36,7 @@ const Wrap = styled.div`
       font-size: 14px;
       margin-top: 65px;
       background-color: #efeee9;
-      border-radius: ${getvw(15)};
+      border-radius: 16px;
       width: 100%;
       border-collapse: collapse;
       border-style: hidden;
@@ -95,6 +95,44 @@ const Wrap = styled.div`
   }
   .surveyimg {
     width: ${getvw(610)};
+  }
+  @media only screen and (max-width: 768px) {
+    .flex-wrap:first-child {
+      flex-direction: column;
+      gap: 60 px;
+      .survey-wrap {
+        width: 100%;
+
+        &:last-child {
+          margin-top: 60px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    padding: 60px 30px 30px;
+    .flex-wrap {
+      flex-direction: column;
+      gap: 20px;
+      .survey-wrap {
+        width: 100%;
+
+        table {
+          margin-top: 20px;
+        }
+
+        &:last-child {
+          margin-top: 20px;
+        }
+      }
+      .surveyimg {
+        width: 100%;
+        /* &:first-child{
+          margin-bottom: 20px;
+        } */
+      }
+    }
   }
 `;
 

@@ -75,6 +75,27 @@ const Wrap = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    padding: ${getvw(112)};
+    .text-box-wrap {
+      width: 100%;
+
+      .text-box {
+        width: 49%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .text-box-wrap {
+      flex-direction: column;
+
+      .text-box {
+        width: 100%;
+      }
+    }
+  }
 `;
 
 const TrpProjectBackground = () => {

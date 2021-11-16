@@ -42,6 +42,25 @@ const Wrap = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .footer-content {
+      margin: 0 30px;
+
+      .footer-icons {
+        margin-bottom: 6px;
+        width: 50px;
+        justify-content: space-between;
+
+        .linkedin-icon {
+          height: 16px;
+        }
+        .mail-icon {
+          width: 16px;
+        }
+      }
+    }
+  }
 `;
 
 const Footer = () => {
