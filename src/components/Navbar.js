@@ -46,7 +46,7 @@ const Wrap = styled.div`
     top: 0;
     background-color: #f2f2f2;
     width: 100%;
-    z-index: 9;
+    z-index: 9999;
     padding: 10px 30px;
 
     .nav-content {

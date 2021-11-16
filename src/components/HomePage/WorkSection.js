@@ -47,7 +47,7 @@ const MockupBlock = styled.div`
       background-color: #000;
       opacity: 0.2;
       transition: all 1s ease;
-      z-index: 9999;
+      z-index: 999;
       cursor: pointer;
     }
   }
