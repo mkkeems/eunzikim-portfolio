@@ -45,7 +45,7 @@ const Wrap = styled.div`
       top: 20px;
       width: 160px;
     }
-  } ;
+  }
 `;
 
 const Header = () => {
