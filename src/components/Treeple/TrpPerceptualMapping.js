@@ -42,6 +42,15 @@ const Wrap = styled.div`
     .map-wrap {
       padding: 30px;
     }
+    .trpmap {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .trpmap-description {
+      padding: 20px;
+      margin-top: 30px;
+    }
   }
 `;
 
