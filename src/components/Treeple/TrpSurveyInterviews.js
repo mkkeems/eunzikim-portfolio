@@ -97,7 +97,7 @@ const Wrap = styled.div`
     width: ${getvw(610)};
   }
   @media only screen and (max-width: 768px) {
-    .flex-wrap:first-child {
+    .flex-wrap {
       flex-direction: column;
       gap: 60 px;
       .survey-wrap {
@@ -107,6 +107,12 @@ const Wrap = styled.div`
           margin-top: 60px;
         }
       }
+      .surveyimg {
+        width: 100%;
+        &:first-child {
+          margin-bottom: 60px;
+        }
+      }
     }
   }
 
@@ -114,23 +120,29 @@ const Wrap = styled.div`
     padding: 60px 30px 30px;
     .flex-wrap {
       flex-direction: column;
-      gap: 20px;
+      /* gap: 20px; */
       .survey-wrap {
         width: 100%;
 
         table {
           margin-top: 20px;
+          tr {
+            td {
+              font-size: 12px;
+              line-height: 1.5;
+            }
+          }
         }
 
         &:last-child {
-          margin-top: 20px;
+          margin-top: 30px;
         }
       }
       .surveyimg {
         width: 100%;
-        /* &:first-child{
-          margin-bottom: 20px;
-        } */
+        &:first-child {
+          margin-bottom: 30px;
+        }
       }
     }
   }
